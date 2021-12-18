@@ -31,3 +31,10 @@ $ npm help i
    `$npm install -g npm@x.x`
 
 link: [https://stackoverflow.com/questions/13281454/how-to-use-a-specific-version-of-npm](https://stackoverflow.com/questions/13281454/how-to-use-a-specific-version-of-npm)
+
+
+
+## CSS template
+- Use `Semantic-UI`
+- The url is from: https://cdnjs.com/libraries/semantic-ui
+- Semantic-UI: https://semantic-ui.com/
