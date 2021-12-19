@@ -20,4 +20,5 @@ $ yarn run start
 - [KOLpower](https://kolpower.cc/video-editor): an online service from Taiwan KOL `六指渊`
     - It supports upload video/audio and serve to annotate the parts with volume
     - The JS modules used by this produt are `ffmpeg.js`/`wavesurfer.js`
-     
+- [video-annotation](https://github.com/katspaugh/wavesurfer.js/blob/master/example/video-annotation/main.js)
+    - demo page: https://wavesurfer-js.org/example/video-annotation/index.html     
