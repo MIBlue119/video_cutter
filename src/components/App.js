@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import MediaLocalPlayer from "./MediaLocalPlayer/MediaLocalPlayer";
 
 const App = () => {
     const [selectedFile, setSelectedFile] = useState();
@@ -7,8 +8,8 @@ const App = () => {
     // Define the file selected handler
     const selectedFileHandler = (event) => {
         const selectedFileFromClient = event.target.files[0];
-        selectedFile(selectedFileFromClient);
-        selectedFileFromClient(true);
+        setSelectedFile(selectedFileFromClient);
+        setIsFilePicked(true);
     };
 
 
@@ -25,6 +26,10 @@ const App = () => {
                 type="file"
                 onChange={selectedFileHandler}
                 accept="audio/*,video/*"
+            />
+            <MediaLocalPlayer
+                isFilePicked={isFilePicked}
+                selectedFile={selectedFile}
             />
         </div>
     );
