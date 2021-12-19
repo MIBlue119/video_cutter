@@ -16,6 +16,14 @@ $ yarn install
 $ yarn run start
 ```
 
+## Deploy with vercel
+- [How to deploy the static files to serve](./docs/deploy_to_vercel.md)
+    - Install vercel : `$npm install vercel` 
+    - Sign in the vercel: `$vercel login`
+    - Build: `$vercel`
+    - [Close the CI setting](./docs/deploy_to_vercel.md)
+    - When update code, rebuild again: `$vercel --prod`
+
 ## Related source
 - [KOLpower](https://kolpower.cc/video-editor): an online service from Taiwan KOL `六指渊`
     - It supports upload video/audio and serve to annotate the parts with volume
